@@ -187,3 +187,37 @@ db.wands.find({"powers" : "Fire"})
 ```
 
 
+### 1.10 Bad Magic 
+You're doing a great job inserting and querying data from the database. 
+
+* Occasionally, though, you may run into some bad data.
+
+* Case in point, the following 2 documents are problematic.
+
+``` sh
+{
+  "_id": ObjectId("1234567"),
+  "name": "Dream Bender",
+  "creator": "Foxmond",
+  "level_required": 10,
+  "price": 34.9,
+  "powers": ["Fire", "Love"],
+  "damage": {"magic": 4, "melee": 2}
+},
+{
+  "_id": ObjectId("1234567"),
+  "name": "Lightbane",
+  "creator": "Elvira",
+  "level_required": 4,
+  "price": 4.2,
+  "powers": ["Light", "Darkness"],
+  "damage": {"magic": 10, "melee": 0}
+}
+```
+Can you tell which validation they break?  Unique_id
+
+Explanation: Unique_id is broken because both the objects appear to have the same ObjectId, 
+this is meant to be a unique set of numbers assigned to each object. It should never be the same. 
+
+
+
