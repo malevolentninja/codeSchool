@@ -39,7 +39,7 @@ $(function() {
 ```
 
 Convert the commented jQuery code  to CoffeeScript and use CoffeeScript-style string interpolation.
-
+```sh 
 $('#newCoffee a').click ->
     name = prompt 'Name of coffee:'
     alert 'New coffee added: #{name}'
