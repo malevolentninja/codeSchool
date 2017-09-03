@@ -12,14 +12,14 @@
 # });
 ```
 
-convert the commented jQuery code to CoffeeScript
+Convert the commented jQuery code to CoffeeScript
 ``` sh 
 $ ->
     $('#newCoffee a').click ->
         alert 'New coffee added'
 ```
 
-live javaScript file
+#### Live javaScript
 
 ```sh
 $(function() {
@@ -45,7 +45,7 @@ $('#newCoffee a').click ->
     alert 'New coffee added: #{name}'
 ```
 
-live javaScript file
+#### Live javaScript
 
 ```sh
 $('#newCoffee a').click(function() {
@@ -75,7 +75,7 @@ $('#newCoffee a').click ->
     $('ul.drink').append coffee
 ```
 
-live javaScript file
+#### Live javaScript
 
 ```sh
 $('#newCoffee a').click(function() {
@@ -103,7 +103,7 @@ $('.drink li a').click (e) ->
     alert $(@).text()
 ```
 
-live javaScript file
+#### Live javaScript
 
 ```sh
 $('.drink li a').click(function(e) {
@@ -124,14 +124,14 @@ $('.drink li a').click(function(e) {
 ```
 
 Convert the commented jQuery code to CoffeeScript
-
+```sh 
 $('.drink li').mouseenter ->
     $(@).find('span').show()
 $('.drink li').mouseleave ->
     $(@).find('span').hide()
 ```
 
-live javaScript file
+#### Live javaScript
 
 ```sh
 $('.drink li').mouseenter(function() {
@@ -163,8 +163,7 @@ $('.drink li').hover(
    $(@).find('span').hide();
 )
 ```
-
-live javaScript file
+#### Live javaScript
 
 ```sh
 $('.drink li').hover(function() {
