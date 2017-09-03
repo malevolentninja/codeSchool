@@ -57,7 +57,7 @@ coffee = {
 };
 ```
 
-#### 4.4 for in loop
+### 4.4 for in loop
 
 Using the for element in collection loop, iterate over the people collection and 
 print the names of people over 18 years old (person.age > 18).
@@ -80,4 +80,82 @@ for (_i = 0, _len = people.length; _i < _len; _i++) {
 }
 ```
 
+### 4.5 list comprehension
+```sh
+ for person in people
+  console.log(person.name) if person.age > 18
 
+ Modify the loop to use a list comprehension.
+for person in people
+```
+
+```sh
+  console.log(person.name) if person.age > 18
+
+
+console.log(person.name) for person in people when person.age > 18
+```
+
+#### Live javaScript
+
+```sh
+var person, _i, _len;
+for (_i = 0, _len = people.length; _i < _len; _i++) {
+  person = people[_i];
+  if (person.age > 18) {
+    console.log(person.name);
+  }
+}
+```
+
+4.6 List Comprehension II
+
+```sh
+for coffee in coffeeList
+    if not coffee.isRussian?()
+        addCoffee(coffee)
+```
+
+Refactor the code to make use of list comprehension
+
+```sh
+addCoffee(coffee) for coffee in coffeeList when not coffee.isRussian?()
+```
+
+#### Live javaScript
+```sh
+var coffee, _i, _len;
+for (_i = 0, _len = coffeeList.length; _i < _len; _i++) {
+    coffee = coffeeList[_i];
+    if (!(typeof coffee.isRussian === "function" ? coffee.isRussian() : void 0)) {
+        addCoffee(coffee);
+    }
+}
+```
+
+4.7 Splat Arguments
+
+```sh
+displayTopPicks = (bestCoffee, suggested) ->
+  alert('Top #1 ' + bestCoffee)
+  alert('Suggested: ' + suggested)
+```
+Change the displayTopPicks function to accept a variable number of suggested coffees by using the splat operator. Use suggested.join(", ") to alert all of the suggested coffees.
+
+```sh
+displayTopPicks = (bestCoffee, suggested...) ->
+    alert('Top #1 ' + bestCoffee)
+    alert('Suggested: ' + suggested.join ", ")
+```
+
+ #### Live javaScript
+ ```sh
+    var displayTopPicks;
+var __slice = Array.prototype.slice;
+displayTopPicks = function() {
+  var bestCoffee, suggested;
+  bestCoffee = arguments[0], suggested = 2 <= arguments.length ? __slice.call(arguments, 1) : [];
+  alert('Top #1 ' + bestCoffee);
+  return alert('Suggested: ' + suggested.join(", "));
+};
+```
