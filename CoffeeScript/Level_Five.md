@@ -1,4 +1,4 @@
-# CoffeeScript Level Five
+# CoffeeScript Level Five: Applied jQuery II
 
 ### 5.1 jQuery and Object notation
 
