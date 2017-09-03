@@ -1,4 +1,5 @@
-# CoffeeScript Level One
+# CoffeeScript Level One: Variables and Functions 
+- An overview of Variables and functions
 
 
 ### 1.1 Variable assignment
