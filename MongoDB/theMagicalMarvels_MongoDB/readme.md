@@ -12,7 +12,7 @@ Learning about the MongoDB with the use of 'magic'.
 ### [Level Two: Mystical Modifications](https://github.com/malevolentninja/codeSchool/blob/master/MongoDB/theMagicalMarvels_MongoDB/Level_Two.md)
 - Learn the lore behind performing updates and transform your data
 
-### [Level Three: Materializing Potions](
+### [Level Three: Materializing Potions](https://github.com/malevolentninja/codeSchool/blob/master/MongoDB/theMagicalMarvels_MongoDB/Level_Three.md)
 - Dig deep into the spell book to learn how to conjure and customize queries
 
 ### [Level Four: Morphing Models](https://github.com/malevolentninja/codeSchool/blob/master/MongoDB/theMagicalMarvels_MongoDB/Level_Four.md)
