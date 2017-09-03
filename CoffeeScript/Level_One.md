@@ -1,4 +1,4 @@
-# CoffeeScript
+# CoffeeScript Level One
 
 
 ### 1.1 Variable assignment
