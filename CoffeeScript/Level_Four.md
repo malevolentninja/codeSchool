@@ -107,7 +107,7 @@ for (_i = 0, _len = people.length; _i < _len; _i++) {
 }
 ```
 
-4.6 List Comprehension II
+### 4.6 List Comprehension II
 
 ```sh
 for coffee in coffeeList
@@ -132,7 +132,7 @@ for (_i = 0, _len = coffeeList.length; _i < _len; _i++) {
 }
 ```
 
-4.7 Splat Arguments
+### 4.7 Splat Arguments
 
 ```sh
 displayTopPicks = (bestCoffee, suggested) ->
