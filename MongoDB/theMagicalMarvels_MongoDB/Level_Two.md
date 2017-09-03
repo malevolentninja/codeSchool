@@ -48,7 +48,7 @@ db.wands.update( {"powers" : "Fire"}, {"$inc": {"level_required" : 2}}, {"multi"
 
 )
 ```
-2.6 User Chronicles
+### 2.6 User Chronicles
 
 "We'd like to see which wands users are looking at most. 
 To do this, we'll use the logs collection that contains documents that record the name a
@@ -68,7 +68,7 @@ db.logs.update(
 
 
 
-2.8 Smelly Wands
+### 2.8 Smelly Wands
 
 " A few of the old wands included a smell field,
 and we're not exactly sure why anyone thought that would be a relevant field.
