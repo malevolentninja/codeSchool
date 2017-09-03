@@ -1,4 +1,4 @@
-# CoffeeScript Level Three Conditionals & Operators
+# CoffeeScript Level Three: Conditionals & Operators
 
 
 ### 3.1 conditionals
