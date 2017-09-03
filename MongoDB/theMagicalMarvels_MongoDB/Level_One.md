@@ -1,38 +1,43 @@
 # The magical Marvels of MongoDB
 
-## Level One
+## Level One: Conjuring MongoDB
 
 ### 1.2 Dispelling the Database
 
-We've inherited a database that stores information about magic wands.
+"We've inherited a database that stores information about magic wands."
 
 * A MongoDB shell has been started, so write the command that will set the current database to wandRecorder.
 * Remember, if you ever forget a command, you can use help
 
-<code>  use wandRecorder </code>
+```sh
+use wandRecorder
+```
 
 ### 1.3 Conjuring Collections 
-The wandRecorder database has wands already loaded inside of a collection named wands. 
+"The wandRecorder database has wands already loaded inside of a collection named wands. "
 
 * Write a command to find all of the documents in that collection.
 
-<code> db.wands.find(all) </code>
+```sh
+db.wands.find(all)
+```
 
 ### 1.4 Waving the Wand 
 
-We're proud of the shiny new wand we've just purchased, so let's add it to the wands collection. 
+"We're proud of the shiny new wand we've just purchased, so let's add it to the wands collection." 
 
 * Our wand's name is "Dream Bender" and its creator is "Foxmond".
 
 * Write a command to insert our wand into the wands collection.
 
-<code> db.wands.insert(
+```sh
+  db.wands.insert(
  {
     "name": "Dream Bender",
     "creator": "Foxmond"
  }
 )
-</code>
+```
 
 
 ### 1.6 Hey, Have You Heard About Wands?
@@ -188,7 +193,7 @@ db.wands.find({"powers" : "Fire"})
 
 
 ### 1.10 Bad Magic 
-You're doing a great job inserting and querying data from the database. 
+"You're doing a great job inserting and querying data from the database." 
 
 * Occasionally, though, you may run into some bad data.
 
@@ -214,7 +219,8 @@ You're doing a great job inserting and querying data from the database.
   "damage": {"magic": 10, "melee": 0}
 }
 ```
-Can you tell which validation they break?  Unique_id
+Can you tell which validation they break?  
+Answer: Unique_id
 
 Explanation: Unique_id is broken because both the objects appear to have the same ObjectId, 
 this is meant to be a unique set of numbers assigned to each object. It should never be the same. 
