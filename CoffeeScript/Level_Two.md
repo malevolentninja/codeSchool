@@ -1,4 +1,4 @@
-# CoffeScript Level Two
+# CoffeScript Level Two: Applied jQuery
 
 
 
