@@ -56,3 +56,28 @@ coffee = {
     }
 };
 ```
+
+#### 4.4 for in loop
+
+Using the for element in collection loop, iterate over the people collection and 
+print the names of people over 18 years old (person.age > 18).
+Use the console.log function to print the person.name.
+
+```sh
+for person in people
+    console.log person.name if person.age > 18
+```
+
+#### Live javaScript
+
+```sh
+var person, _i, _len;
+for (_i = 0, _len = people.length; _i < _len; _i++) {
+    person = people[_i];
+    if (person.age > 18) {
+        console.log(person.name);
+    }
+}
+```
+
+
