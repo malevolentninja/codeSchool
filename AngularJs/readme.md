@@ -4,7 +4,7 @@
 Angular JavaScript is a clientSide framework. 
 
 ### Shaping Up with AngularJS
--Learn to extend HTML's syntax with AngularJS to create dynamic web applications
+- Learn to extend HTML's syntax with AngularJS to create dynamic web applications
 
 ### Accelerating Through Angular 
 - Learn how to use Angular with TypeScript to create Dynamic web applications
