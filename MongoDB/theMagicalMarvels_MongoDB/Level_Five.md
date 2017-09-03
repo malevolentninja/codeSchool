@@ -63,3 +63,41 @@ db.wands.aggregate([
   "price_average": {"$avg": "$price" }}}
 ])
 ```
+
+### 5.6 A Glimmering Guide
+"Let's put together a simple buyer's guide with some basic stats about makers to help our users quickly make wand decisions."
+
+- Write an aggregate to group wands by their maker.
+- Add an accumulator with the field total_wands to sum the number of wands each maker has.
+- Now add an accumulator with the field max_magic that finds that greatest damage.magic per maker.
+-Lastly, add one more accumulator with the field lowest_price that finds the lowest wand price per maker.
+
+```sh
+db.wands.aggregate([
+  {"$group": {
+    "_id": "$maker",
+    "total_wands": {"$sum": 1},
+    "max_magic": {"$max": "$damage.magic"},
+    "lowest_price": {"$min": "$price"}
+  }
+
+  }
+
+])
+```
+
+### 5.8 Lower-level Castings
+Some wand powers can be harder to find in lower-level wands. We've heard that the power "Air Bolt" is a really fun one to have. Let's find out which makers offer a wand with that power and find the lowest level_required per maker.
+
+-Write an aggregate that will only match wands that have "Air Bolt" in their list of powers.
+-Add another aggregate stage to group the data by their maker.
+- Add an accumulator with a field named lowest_level that finds the lowest level_required per maker.
+
+```sh
+db.wands.aggregate([
+  {"$match": {"powers": "Air Bolt"}},
+  {"$group": {"_id": "$maker",
+  "lowest_level": {"$min": "$level_required"}}}
+
+])
+```
