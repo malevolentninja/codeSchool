@@ -9,7 +9,7 @@ Assign your name as a string value to a variable named person.
 person = 'Rick'
 ```
 
-live javaScript file
+#### Live javaScript
 ``` sh 
 var person;
 person = 'Rick';
@@ -24,7 +24,7 @@ greet = ->
     alert 'Hello CoffeeScript'
 ```
 
-live javaScript file
+#### Live javaScript
 ``` sh 
 var greet;
 greet = function() {
@@ -37,13 +37,17 @@ greet = function() {
 ``` sh 
 greet = ->
   alert "Hello CoffeeScript"
+```
 
 Given the greet function, change it so that it accepts a single argument and prints out the value inside the alert.
 
+``` sh 
 greet = (message) ->
     alert message
+```
 
-live js
+#### Live javaScript
+``` sh 
 var greet;
 greet = function(message) {
   return alert(message);
@@ -64,7 +68,7 @@ greet = (message, other) ->
     alert message + ' ' answer
 ```
 
-live JavaScript file
+#### Live javaScript
 ``` sh 
 var greet;
 greet = function(message) {
@@ -83,7 +87,7 @@ Change the greet function so that it uses a default value of 'Stranger' for the 
 greet = (name='Stranger') -> alert name
 ```
 
-live javaScript file
+#### Live javaScript
 ``` sh 
 var greet;
 greet = function(name) {
@@ -107,8 +111,7 @@ greet = (name='Stranger') ->
     "Hello, #{name}"
 ```
 
-
-live js
+#### Live javaScript
 ``` sh 
 var greet;
 greet = function(name) {
@@ -126,8 +129,7 @@ sum = (num1, num2) ->
     num1 + num2
 
 ```
-
-live javaScript file
+#### Live javaScript
 
 ``` sh 
 var sum;
