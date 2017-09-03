@@ -28,3 +28,38 @@ db.wands.aggregate( [
 ] )
 ```
 
+### 5.4 Royal Connoisseurs
+"Our site is a popular resource for wand collectors to find wands by makers they don't yet have. 
+One ambitious connoisseur has asked how much it would cost to buy all the wands for each vendor. 
+Let's find out!"
+
+
+- Write an aggregate that groups our wands by the maker field.
+- Add an accumulator with the total_cost field that sums the price for each wand per maker.
+
+```sh
+db.wands.aggregate([
+  {"$group": {
+    "_id": "$maker",
+    "total_cost": {"$sum": "$price"}
+  }
+
+  }
+])
+```
+
+### 5.5 Mischievous Makers
+"They say that knowledge is power. 
+Let's see what sort of interesting information we can find out based on the data we have. 
+We have a slight suspicion that wand makers like to charge more for wands at "monumental levels". 
+Time to prove it!"
+
+- Write an aggregate to group wands by their level_required.
+- Add an accumulator with a field named price_average to get the average price for the wands per level.
+
+```sh
+db.wands.aggregate([
+  {"$group": {"_id": "$level_required",
+  "price_average": {"$avg": "$price" }}}
+])
+```
