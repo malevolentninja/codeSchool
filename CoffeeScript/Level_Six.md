@@ -1,4 +1,4 @@
-# CoffeeScript Level Six
+# CoffeeScript Level Six: Object Orientation
 
 ### 6.1 Classes Part 1
 
