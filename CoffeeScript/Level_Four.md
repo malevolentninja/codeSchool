@@ -90,8 +90,7 @@ for person in people
 ```
 
 ```sh
-  console.log(person.name) if person.age > 18
-
+console.log(person.name) if person.age > 18
 
 console.log(person.name) for person in people when person.age > 18
 ```
