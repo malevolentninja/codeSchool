@@ -13,7 +13,7 @@ Make sure the alert function is called only if caffeineLevel > 5.
 alert 'High Caffeine Level' if caffeineLevel > 5
 ```
 
-live javaScript file
+#### Live javaScript
 
 ```sh
 if (caffeineLevel > 5) {
@@ -33,7 +33,7 @@ CoffeeScript does not support ternary operators. Change the code to use if/then/
 if caffeineLevel > 5 then alert 'Too High' else alert 'OK'
 ```
 
-live javaScript file
+#### Live javaScript
 
 ```sh
 if (caffeineLevel > 5) {
@@ -57,8 +57,7 @@ Rewrite the javascript below to use an unless conditional.
 ```sh
 alert 'Please wait 5 more minutes.' unless coffeeRead
 ```
-
-live javaScript file
+#### Live javaScript
 
 ```sh
 if (!coffeeRead) {
@@ -84,7 +83,7 @@ else
     alert 'abnormal caffeine level'
 ```
 
-live javaScript file
+#### Live javaScript
 
 ```sh
 if ((lowLevel < newLevel && newLevel < highLevel)) {
@@ -114,8 +113,7 @@ message = switch newLevel
     when 2 then 'Good morning!'
     else 'You should stop while you can'
 ```
-
-live javaScript file
+#### Live javaScript
 
 ```sh
 var message;
@@ -147,7 +145,7 @@ Make use of CoffeeScript's existential operator (the ?) to rewrite the JavaScrip
 if newLevel? then checkLevel newLevel else resetLevel()
 ```
 
-live javaScript file
+#### Live javaScript
 
 ```sh
 if (typeof newLevel !== "undefined" && newLevel !== null) {
@@ -168,7 +166,7 @@ else
     resetLevel() unless resetLevel?
 ```
 
-live javaScript file
+#### Live javaScript
 
 ```sh
 if (typeof level !== "undefined" && level !== null) {
