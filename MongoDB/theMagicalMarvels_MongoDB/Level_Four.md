@@ -25,21 +25,19 @@ This means the data will be present everywhere and would be easy to normalize (r
 It would also be useful for the data to be available for different applications to query the data in the future. 
 
 
-4.5 Quantifying Queries
+### 4.5 Quantifying Queries
 What's the minimum number of queries we'd have to write in order to retrieve a document and its referenced data?
 
 2
 
-
-4.6 Chalice of Choices
+### 4.6 Chalice of Choices
 Which modeling option would give us all the data we need with a single query, support for atomic writes, and is great for data that is strongly related?
 
 Answer: Embedding
 Explanation: denormalization (embedding) only requires a single query and would allow the data to be accessed faster.
 
 
-
-4.7 Cauldrons of Considerations
+### 4.7 Cauldrons of Considerations
 Which data modeling decision doesn't have default support for atomic writes across multiple documents and should be utilized with care?
 
 Answer: Referenced
