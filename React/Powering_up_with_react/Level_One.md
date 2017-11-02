@@ -56,5 +56,72 @@ class RobotBox extends React.Component {
 let target = document.getElementById('robot-app');
 
 ReactDOM.render(< RobotBox />, target);
+```
 
+## 1.7
+
+No Code
+
+## 1.8 The Markup Used by React
+The markup we return from ```sh render() ``` methods in React components is called:
+Answer: JSX
+
+## 1.9 Coding JSX
+Let's finish coding our RobotBox component. 
+- Add an <h3> tag as a child node to the existing <div> with the following content: McCircuit is my name
+- Add a <p> element as a child node of the existing <div> and after the <h3> tag. Give it the CSS class name message and the following content: I am here to help.
+      
+component.js
+```sh
+class RobotBox extends React.Component {
+  render() {
+    return (
+      <div>
+        <h3> McCircuit is my name </h3>
+         <p className="message"> I am here to help. </p>
+      </div>
+    );
+  }
+}
+```
+
+## 1.10  JSX and Plain JavaScript
+
+- Before the return statement, create a new variable called pi and assign it the value of PI. In case you don't remember, you can use the built-in Math.PI property from JavaScript.
+- Reference the pi variable from inside the render() method so that the message returned by our component says: The value of PI is approximately 3.141592653589793.
+- Lastly, add a CSS class to the component <div> called is-tasty-pie.
+component.js
+      
+```sh 
+class RobotTime extends React.Component {
+  render() {
+  	const pi = Math.PI;
+    return (
+      <div className="is-tasty-pie">
+        The value of PI is approximately {pi};
+      </div>
+    );
+  }
+}  
+```
+## 1.11 JSX and Collections
+
+- Using the map() method on the topics array, let's start by returning an empty <li> element for each item.
+- Using the single argument to the callback function passed to map(), render each topic inside the <li> tag.   
+      component.js
+
+```sh  
+class RobotItems extends React.Component {
+  render() {
+    const topics = ["React", "JSX", "JavaScript", "Programming"];
+    return (
+      <div>
+        <h3>Topics I am interested in</h3>
+        <ul>
+          {topics.map( topic => <li> {topic}</li>)}
+        </ul>
+      </div>
+    );
+  }
+}
 ```
