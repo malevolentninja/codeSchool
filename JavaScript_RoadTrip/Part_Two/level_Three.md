@@ -1,4 +1,4 @@
-# Level 3:Built-In's Bluff
+# Level 3: Built-In's Bluff
 
 ### 3.2 Pop-up Windows I
 
