@@ -31,12 +31,15 @@ Remember: no quotes are needed when markup is returned in React components.
 
 component.js
 ```sh
-class RobotBox extends React.Component{
-      render(){
-        return(<div> Hello From React </div> )
-      }
+class RobotBox extends React.Component {
+   render() {
+     return( <div> Hello from React </div> );
+   }
 }
 
+ReactDOM.render(
+   <StoryBox />, document.getElementById('story-app')
+);
 ```
 
 
