@@ -71,8 +71,9 @@ Answer: JSX
 
 ## 1.9 Coding JSX
 Let's finish coding our RobotBox component. 
-- Add an <h3> tag as a child node to the existing <div> with the following content: McCircuit is my name
-- Add a <p> element as a child node of the existing <div> and after the <h3> tag. Give it the CSS class name message and the following content: I am here to help.
+- Add an ```sh <h3>``` tag as a child node to the existing ```sh <div>``` with the following content: McCircuit is my name
+- Add a ```sh <p> ``` element as a child node of the existing ```sh <div> ``` and after the ```sh <h3>``` tag. 
+      - Give it the CSS class name message and the following content: I am here to help.
       
 component.js
 ```sh
