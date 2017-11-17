@@ -1,4 +1,5 @@
-# Powering up with react
+# Level 1: First Component
+Learn how to solve problems in terms of React components, and get familiar with the JSX markup language.
 
 ## 1.2 Breaking Down Problems
 
