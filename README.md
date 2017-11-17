@@ -30,7 +30,7 @@ This List is structured more inline with what I wish to work on and develop firs
 * [Shaping Up with AngularJS](https://github.com/malevolentninja/codeSchool/tree/master/AngularJs/Shaping_Up_With_AngularJs)
 * Accelerating through AngularJS
 * Staying Sharp with AngularJS
-* Powering Up with React
+* [Powering Up with React](https://github.com/malevolentninja/codeSchool/tree/master/React/Powering_up_with_react)
 * Try Ember
 * Anatomy of Backbone.js
 * Anatomy of Backbone.js Part 2
@@ -38,7 +38,7 @@ This List is structured more inline with what I wish to work on and develop firs
 #### Server-side Frameworks
 
 * [Real-time Web with Node.js](https://github.com/malevolentninja/codeSchool/tree/master/Node)
-* Building Blocks of Express.js
+* [Building Blocks of Express.js](https://github.com/malevolentninja/codeSchool/tree/master/Express)
 
 
 ### Database
@@ -100,5 +100,5 @@ Functional programming
 
 * Try ASP.NET Core
 * Forging Ahead with ASP.NET Core
-* Try C#
-* Keeping It Classy With C#
+* [Try C#](https://github.com/malevolentninja/codeSchool/tree/master/C#)
+* [Keeping It Classy With C#](https://github.com/malevolentninja/codeSchool/tree/master/C#)
