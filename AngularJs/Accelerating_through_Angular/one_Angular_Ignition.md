@@ -1,7 +1,7 @@
 # Level 1: Angular Ignition
 Get an introduction to Angular and create your first module and component with a template.
 
-### 1.5 Our First Component 
+### 1.5 Our First Component 
 Let’s build out a racing schedule app. It will be similar to what we built in the video, but a little different.
 
 In the index.html file, create a custom HTML element called racing-app between the body tags, with the inner content of Loading...
@@ -69,8 +69,9 @@ index.html
 ```
 
 
-### 1.6 Making It Dynamic
-We've added a new component property called race inside our class. Fill in the empty template elements using this race property. The name should be in the <h2>, the date in the first <p> tag, and the about in the last <p> tag. Don't forget to click the "Check My Work" button when you think you have it right.
+### 1.6 Making It Dynamic
+We've added a new component property called race inside our class. Fill in the empty template elements using this race property. The name should be in the ```sh <h2>```, the date in the first```sh <p>``` tag, and the about in the last```sh <p>``` tag. 
+- Don't forget to click the "Check My Work" button when you think you have it right.
 
 main.ts
 ```sh
@@ -107,4 +108,4 @@ class AppModule {}
 
 platformBrowserDynamic()
 .bootstrapModule(AppModule);
-```sh
+```
