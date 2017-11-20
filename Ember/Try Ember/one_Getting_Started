@@ -1,0 +1,42 @@
+
+# Level 1: Getting started
+Learn what Ember is, who uses it, and how to create your first Ember application with Ember CLI.
+
+### 1.2 Architecture Pattern
+Which type of software architectural pattern does Ember provide?
+
+Model View Controller
+
+### 1.3 Runtime Environment
+Which runtime environment will you need in order to run Ember CLI for development?
+
+Node.js
+
+### 1.4 Install Ember CLI
+Which of the following commands installs Ember CLI?
+```sh
+npm install -g ember-cli
+```
+
+
+### 1.5 Create an Application
+```sh
+$ ember new quiz
+```
+### 1.6 start a development server
+Start a development server using Ember CLI.
+```sh
+ember serve
+```
+
+app.js
+```sh
+var App = Ember.Application.create({
+    LOG_TRANSITIONS: true
+});
+
+App.Router.map(function () {
+    this.route('about');
+    this.route('credits');
+});
+```
