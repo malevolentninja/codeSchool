@@ -1,9 +1,6 @@
 # codeSchool
 
-Contains the list of all the programmes code school do. 
-I won't be aiming to complete all of them due to the variety, 
-however as I enjoy learning new things I will definitely use this as a template.  
-This List is structured more inline with what I wish to work on and develop first. 
+Contains the list of Code School Courses.  
 
 ## Paths:
 
@@ -16,22 +13,22 @@ This List is structured more inline with what I wish to work on and develop firs
 
 * [CoffeScript](https://github.com/malevolentninja/codeSchool/tree/master/CoffeeScript)
 * JavaScript Road Trip Part 1
-* JavaScript Road Trip Part 2
-* JavaScript Road Trip Part 3
+* [JavaScript Road Trip Part 2](https://github.com/malevolentninja/codeSchool/tree/master/JavaScript_RoadTrip/Part_Two)
+* [JavaScript Road Trip Part 3](https://github.com/malevolentninja/codeSchool/tree/master/JavaScript_RoadTrip/Part_Three)
 * ES2015: The Shape of JavaScript to Come
 * JavaScript Best Practices 
 
 #### jQuery
 
 * [Try jQuery](https://github.com/malevolentninja/codeSchool/tree/master/jQuery/Try_jQuery)
-* jQuery: The Return Flight
+* [jQuery: The Return Flight](https://github.com/malevolentninja/codeSchool/tree/master/jQuery/jQuery_the_Return_Flight)
 
 #### Client-Side Frameworks
 * [Shaping Up with AngularJS](https://github.com/malevolentninja/codeSchool/tree/master/AngularJs/Shaping_Up_With_AngularJs)
-* Accelerating through AngularJS
+* [Accelerating through AngularJS](https://github.com/malevolentninja/codeSchool/tree/master/AngularJs/Accelerating_through_Angular)
 * Staying Sharp with AngularJS
 * [Powering Up with React](https://github.com/malevolentninja/codeSchool/tree/master/React/Powering_up_with_react)
-* Try Ember
+* [Try Ember](https://github.com/malevolentninja/codeSchool/tree/master/Ember)
 * Anatomy of Backbone.js
 * Anatomy of Backbone.js Part 2
 
@@ -92,13 +89,13 @@ Learn to store, manipulate data and make decisions
 
 ### Exlir
 Functional programming
-* Try Elixir
-* Mixing It Up with Elixir
+* [Try Elixir](https://github.com/malevolentninja/codeSchool/tree/master/Elixir/Try_Elixr)
+* [Mixing It Up with Elixir](https://github.com/malevolentninja/codeSchool/tree/master/Elixir/Mixing_It_Up_with_Elixir)
 
 ### .NET
 .Net to build scalable and easy to maintain web applications
 
 * Try ASP.NET Core
 * Forging Ahead with ASP.NET Core
-* [Try C#](https://github.com/malevolentninja/codeSchool/tree/master/C#)
-* [Keeping It Classy With C#](https://github.com/malevolentninja/codeSchool/tree/master/C#)
+* [Try C#](https://github.com/malevolentninja/codeSchool/tree/master/Csharp/try_Csharp)
+* [Keeping It Classy With C#](https://github.com/malevolentninja/codeSchool/tree/master/Csharp/keeping_it_classy)
