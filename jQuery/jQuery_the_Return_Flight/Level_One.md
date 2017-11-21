@@ -1,12 +1,11 @@
 # Level One: Ajax Basics
 
 ### 1.3 Ajax 
-* In the Try jQuery course, we learned how to slideDown() content based on a mouse click event
-* But that was for content that was already loaded in the HTML
-* Now, let's refactor that code to fetch and show the content using Ajax
-
-* To get started, make an $.ajax request for the /photos.html URL inside the existing event handler
-* Don't worry about handling the success or error cases yet
+- In the Try jQuery course, we learned how to slideDown() content based on a mouse click event
+- But that was for content that was already loaded in the HTML
+- Now, let's refactor that code to fetch and show the content using Ajax
+- To get started, make an $.ajax request for the /photos.html URL inside the existing event handler
+- Don't worry about handling the success or error cases yet
 
 ```sh
 $(document).ready(function () {
@@ -37,8 +36,8 @@ $(document).ready(function () {
 
 
  ### 1.5 $.get Shorthand 
-* There's an easier way to write this code using the jQuery $.get shorthand method. 
-* Refactor this code to use $.get instead of $.ajax.
+- There's an easier way to write this code using the jQuery $.get shorthand method. 
+- Refactor this code to use $.get instead of $.ajax.
 
 ```sh
 $(document).ready(function () {
@@ -52,9 +51,9 @@ $(document).ready(function () {
 
 
 ### 1.6 Ajax Data 
-* You've decided you only want to get photos of london. 
-* Use the data option of the $.ajax function to pass a location option. 
-* Get the location from the data-location on the #tour element using the data method.
+- You've decided you only want to get photos of london. 
+- Use the data option of the $.ajax function to pass a location option. 
+- Get the location from the data-location on the #tour element using the data method.
 
 ```sh
 $(document).ready(function () {
@@ -73,10 +72,10 @@ $(document).ready(function () {
 ```
 
 ### 1.8 Ajax with Errors 
-* Sometimes things go wrong. 
-* Maybe our server went down, or the traveler visiting our page lost their internet connection and can no longer access our site.
-* Let's account for this case by adding an error callback that will set the contents of the .photos element to a message in an li element letting the traveler know that something went wrong and to try again. 
-* You can write whatever you'd like for this message.
+- Sometimes things go wrong. 
+- Maybe our server went down, or the traveler visiting our page lost their internet connection and can no longer access our site.
+- Let's account for this case by adding an error callback that will set the contents of the .photos element to a message in an li element letting the traveler know that something went wrong and to try again. 
+- You can write whatever you'd like for this message.
 
 ```sh
 $(document).ready(function () {
@@ -95,13 +94,12 @@ $(document).ready(function () {
 });
 ```
 
-### 1.9 Setting a Timeout 250 PTS
-* We've been hearing reports from our travelers that sometimes they'll click on this button 
+### 1.9 Setting a Timeout
+- We've been hearing reports from our travelers that sometimes they'll click on this button 
 and nothing will happen 
-* Then a minute later they'll get a message saying "There was a problem fetching the latest photos. 
+- Then a minute later they'll get a message saying "There was a problem fetching the latest photos. 
 Please try again."
-
-* Update the $.ajax request to timeout in 3 seconds to prevent this.
+- Update the $.ajax request to timeout in 3 seconds to prevent this.
 
 ```sh
 $(document).ready(function () {
@@ -128,11 +126,11 @@ $(document).ready(function () {
 
 ### 1.10 More Ajax Callbacks
 
-* Things are working fine, but we could make it better. 
-* While the server is responding, the traveler has no indication that anything is happening.
-* Our designers have added some special styling to account for this. 
-* Before the ajax command is sent, add a class of is-fetching to our #tour element,
-* then remove this class after the request is complete.
+- Things are working fine, but we could make it better. 
+- While the server is responding, the traveler has no indication that anything is happening.
+- Our designers have added some special styling to account for this. 
+- Before the ajax command is sent, add a class of is-fetching to our #tour element,
+- then remove this class after the request is complete.
 
 ```sh
 $(document).ready(function () {
