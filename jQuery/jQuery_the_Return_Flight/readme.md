@@ -6,13 +6,13 @@ Discover how to organize your code using jQuery Plugins and Promises.
 ### [Level One: Ajax Basics](https://github.com/malevolentninja/codeSchool/blob/master/jQuery/jQuery_the_Return_Flight/Level_One.md)
 * Learn what Ajax is and how it can be used
 
-### [Level Two: JavaScript and jQuery](https://github.com/malevolentninja/codeSchool/blob/master/jQuery/jQuery_the_Return_Flight/Level_Two.md)
+### [Level Two: JavaScript and jQuery](https://github.com/malevolentninja/codeSchool/blob/master/jQuery/jQuery_the_Return_Flight/two_JavaScript_and_jQuery.md)
 * Organize your jQuery and JavaScript
 
-### [Level Three: Ajax With Forms](https://github.com/malevolentninja/codeSchool/blob/master/jQuery/jQuery_the_Return_Flight/Level_Three.md)
+### [Level Three: Ajax With Forms](https://github.com/malevolentninja/codeSchool/blob/master/jQuery/jQuery_the_Return_Flight/three_Ajax_with_Forms.md)
 * Learn about how to send data to the server and work with JSON
 
-### Level Four: Utility Methods
+### [Level Four: Utility Methods](https://github.com/malevolentninja/codeSchool/blob/master/jQuery/jQuery_the_Return_Flight/four_Utlility_Methods.md)
 * Learn about some handy utility methods including $.each and $.map while working with complicated JSON data
 
 ### Level Five:jQuery Plugins
